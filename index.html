@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -60,19 +61,51 @@
 
         <hr>
 
-        <table>
+        <table border="1" cellpadding ="10" cellspacing="10" width="50%" align="center" >
             <thead>
                   <tr>
-                    <th>Roll No</th>
-                    <name>name</name>
-                    <th>gender</th>
-
+                    <th rowspan="2">Roll No</th>
+                    <th rowspan="2">name</th>
+                    <th rowspan="2">gender</th>
+                    <th colspan="2">other details</th>
                   </tr>
+                  <tr>
+                    <th>height</th>
+                    <th>weight</th>
+                  </tr>
+                  
             </thead>
             <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>John Doe</td>
+                    <td>Male</td>
+                    <td>6 feet</td>
+                    <td>70 kg</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Jane Smith</td>
+                    <td>Female</td>
+                    <td>5 feet 5 inches</td>
+                    <td>60 kg</td>
+                </tr>
+                
 
             </tbody>
         </table>
+        <h1>Forms in html</h1>
+        <form action="">
+            <input type="text", placeholder="Enter name" ><br><br>
+            <input type="email" placeholder="Enter Email"><br><br>
+            <input type=" password" placeholder="Enter Password"><br><br>
+            <input type="submit" value="submit">
+
+
+
+        </form>
+          
+ </table>
 
 </body>
 </html>
